@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/pic"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/book2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Welcome"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_below="@+id/imgv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/maginTop25"
+        android:layout_marginBottom="70dp"/>
+
+</RelativeLayout>

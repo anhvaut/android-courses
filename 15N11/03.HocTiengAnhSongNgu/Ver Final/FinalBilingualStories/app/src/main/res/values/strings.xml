@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinalBilingualStories</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="List_of_stories">List of stories</string>
+    <string name="Bilingual_Stories">Bilingual Stories</string>
+    <string name="START">START</string>
+    <string name="FAVORITE">FAVORITE</string>
+    <string name="INFO">INFO</string>
+    <string name="EXIT">EXIT</string>
+    <string name="Chạm_vào_từ_cần_tìm">Chạm vào từ cần tìm</string>
+    <string name="Vocabulary_1">Vocabulary 1</string>
+    <string name="Vocabulary_2">Vocabulary 2</string>
+    <string name="Vocabulary_3">Vocabulary 3</string>
+    <string name="Vocabulary_4">Vocabulary 4</string>
+    <string name="Vocabulary_5">Vocabulary 5</string>
+    <string name="Vocabulary_6">Vocabulary 6</string>
+    <string name="ĐÓNG">ĐÓNG</string>
+    <string name="PIC">PIC</string>
+    <string name="PIC2">PIC 2</string>
+
+</resources>

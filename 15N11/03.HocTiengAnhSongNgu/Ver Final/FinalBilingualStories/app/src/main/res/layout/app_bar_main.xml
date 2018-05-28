@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/layout_width_150"
+        android:layout_height="150dp"
+        android:src="@drawable/bilingual1"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/maginTop60"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/maginTop10"
+        android:text="@string/Bilingual_Stories"
+        android:textColor="#b3efff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="@dimen/layout_width_200"
+        android:layout_height="@dimen/layout_height_30"
+        android:text="@string/START"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/pic3"/>
+
+    <Button
+        android:id="@+id/btn_fav"
+        android:layout_width="@dimen/layout_width_200"
+        android:layout_height="@dimen/layout_height_30"
+        android:text="@string/FAVORITE"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/pic3"
+        android:layout_marginTop="@dimen/maginTop10"/>
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="@dimen/layout_width_200"
+        android:layout_height="@dimen/layout_height_30"
+        android:text="@string/INFO"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/pic3"
+        android:layout_marginTop="@dimen/maginTop10"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="@dimen/layout_width_200"
+        android:layout_height="@dimen/layout_height_30"
+        android:text="@string/EXIT"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/pic3"
+        android:layout_marginTop="@dimen/maginTop10"/>
+
+    <ImageView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="@dimen/maginTop40"
+        android:layout_marginRight="@dimen/maginRight10"/>
+
+</LinearLayout>

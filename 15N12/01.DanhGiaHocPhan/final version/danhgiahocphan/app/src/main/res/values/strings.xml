@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Đánh Giá Học Phần</string>
+    <string name="forgot_password"><u>Quên mật khẩu</u></string>
+    <string name="sign_up"><u>Tài khoản mới</u></string>
+    <string name="copyright">"@2017 Creators</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

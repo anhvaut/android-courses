@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_stories"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Stories" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_practice"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Practice" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="More Information">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Team" />
+            <item
+                android:id="@+id/nav_recommend"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Other Apps" />
+        </menu>
+    </item>
+
+</menu>

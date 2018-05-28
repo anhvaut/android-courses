@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_item_subject"
+    tools:context="com.example.creators.danhgiahocphan.activity.Login"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvtitle"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:text="THÔNG TIN"
+        android:background="@color/color_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_large" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_below="@id/tvtitle"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_short"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <com.example.creators.danhgiahocphan.ui.RoundedImageView
+            android:src="@drawable/icon_avatar"
+            android:layout_gravity="center"
+            android:id="@+id/imgAvatar"
+            android:layout_width="@dimen/height_extra_large"
+            android:layout_height="@dimen/height_extra_large"
+           />
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_short"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_short"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/width_extra"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Họ và tên :"
+                android:textSize="@dimen/text_size_medium" />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_short"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/width_extra"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Email :"
+                android:textSize="@dimen/text_size_medium" />
+            <TextView
+                android:textSize="@dimen/text_size_medium"
+                android:id="@+id/txtMail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_short"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/width_extra"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Chuyên ngành :"
+                android:textSize="@dimen/text_size_medium" />
+        <TextView
+            android:id="@+id/txtMajor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_short"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/width_extra"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Niên khóa :"
+                android:textSize="@dimen/text_size_medium" />
+        <TextView
+            android:id="@+id/txtStartYear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_short"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/width_extra"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Giới tính :"
+                android:textSize="@dimen/text_size_medium" />
+        <TextView
+            android:textSize="@dimen/text_size_medium"
+            android:id="@+id/txtGendle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+        </LinearLayout>
+            <Button
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textColor="@color/color_white"
+                android:background="@drawable/button_custom_1"
+                android:id="@+id/btnChangeProfile"
+                android:layout_width="@dimen/width_half"
+                android:layout_height="@dimen/height_short"
+                android:text="Thay đổi"
+                />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textColor="@color/color_background" />
+</RelativeLayout>

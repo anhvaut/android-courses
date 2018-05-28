@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/googlexammanh"
+    android:orientation="vertical">
+            <TextView
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:textColor="#ff49673a"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:text="Đăng ký nhanh" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/bgloginedittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginBottom="20.0dip">
+                <View
+                    android:background="@color/googlexam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.30000007dip" />
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:background="@drawable/bgedittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46.0dip"
+                    android:hint="Email" />
+                <View
+                    android:background="@color/googlexam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.30000007dip" />
+                <EditText
+                    android:id="@+id/edtPass"
+                    android:background="@drawable/bgedittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46.0dip"
+                    android:hint="Nhập mật khẩu"
+                    android:inputType="text" />
+                <View
+                    android:background="@color/googlexam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.30000007dip" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnHuyregister"
+            android:textSize="18.0sp"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:text="Hủy" />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnDangky"
+                android:textSize="18.0sp"
+                android:textColor="@color/black"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginRight="30.0dip"
+                android:text="Đăng ký" />
+    </LinearLayout>
+</LinearLayout>

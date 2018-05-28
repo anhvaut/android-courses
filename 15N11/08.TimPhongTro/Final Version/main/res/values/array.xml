@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrRoomType1">
+        <item>Phòng Trọ</item>
+        <item>Nhà Cho Thuê</item>
+        <item>Căn Hộ</item>
+    </string-array>
+    <string-array name="arrRoomType">
+        <item>Tất Cả</item>
+        <item>Phòng Trọ</item>
+        <item>Nhà Cho Thuê</item>
+        <item>Căn Hộ</item>
+    </string-array>
+    <string-array name="arrCity1">
+        <item>Đà Nẵng</item>
+    </string-array>
+    <string-array name="arrCity">
+        <item>Tất Cả</item>
+        <item>Đà Nẵng</item>
+    </string-array>
+    <string-array name="arrDistrict1">
+        <item>Quận Liên Chiểu</item>
+        <item>Quận Thanh Khê</item>
+        <item>Quận Hải Châu</item>
+        <item>Quận Sơn Trà</item>
+        <item>Quận Cẩm Lệ</item>
+        <item>Quận Ngũ Hành Sơn</item>
+    </string-array>
+    <string-array name="arrDistrict">
+        <item>Tất Cả</item>
+        <item>Quận Liên Chiểu</item>
+        <item>Quận Thanh Khê</item>
+        <item>Quận Hải Châu</item>
+        <item>Quận Sơn Trà</item>
+        <item>Quận Cẩm Lệ</item>
+        <item>Quận Ngũ Hành Sơn</item>
+    </string-array>
+    <string-array name="arrDienTich">
+        <item>Tất Cả</item>
+        <item>Nhỏ hơn 30m²</item>
+        <item>Từ 30m² - 50m²</item>
+        <item>Từ 50m² - 80m²</item>
+        <item>Từ 80m² - 100m²</item>
+        <item>Lớn hơn 100m²</item>
+    </string-array>
+    <string-array name="arrGiaPhong">
+        <item>Tất Cả</item>
+        <item>Dưới 500k</item>
+        <item>Từ 500k - 700k</item>
+        <item>"Từ 700k - 1 triệu</item>
+        <item>Từ 1 triệu - 2 triệu</item>
+        <item>Từ 2 triệu - 3 triệu</item>
+        <item>Trên 3 triệu</item>
+    </string-array>
+</resources>

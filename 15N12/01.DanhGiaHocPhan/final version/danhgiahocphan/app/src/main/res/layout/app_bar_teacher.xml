@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.creators.danhgiahocphan.activity.ListTeacherActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="@color/color_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_large"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:text="TÊN MÔN HỌC"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_large" />
+        </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_view_teacher" />
+    
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="googlexam">#ffe5e5e5</color>
+    <color name="googlexammanh">#fff5f5f5</color>
+    <color name="colorbackground">#9ad4a2</color>
+    <color name="colorDivider">#eae6e6</color>
+    <color name="colorMild">#9d9c9c</color>
+    <color name="whiles">#ffffff</color>
+    <color name="darkgray">#FF4081</color>
+    <color name="black">#000000</color>
+
+</resources>

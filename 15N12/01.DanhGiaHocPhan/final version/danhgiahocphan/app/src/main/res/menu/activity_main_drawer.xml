@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/icon_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/infor"
+            android:icon="@drawable/icon_user_profile"
+            android:title="Thông Tin" />
+        <item
+            android:id="@+id/general"
+            android:icon="@drawable/book"
+            android:title="Đại Cương" />
+        <item
+            android:id="@+id/major"
+            android:icon="@drawable/majors_icon"
+            android:title="Chuyên Ngành">
+
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feedBack"
+            android:icon="@drawable/ic_feedback"
+            android:title="Phản Hồi">
+
+        </item>
+        <item
+            android:id="@+id/out"
+            android:icon="@drawable/icon_out"
+            android:title="Đăng xuất"></item>
+
+    </group>
+
+
+</menu>

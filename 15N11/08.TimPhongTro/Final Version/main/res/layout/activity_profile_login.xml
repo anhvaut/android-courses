@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp"
+    android:background="@color/googlexam"
+    tools:context="com.example.huynhle.tim_tro.Activity.profile_login">
+
+    <TextView
+        android:id="@+id/txtvemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/btncapnhat"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        android:text="Cập Nhật Thông Tin Tài Khoản"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp"
+            android:textSize="@dimen/_12sdp"
+            android:text="Ảnh đại diện "/>
+        <ImageView
+            android:id="@+id/imvanh"
+            android:src="@drawable/avatar_edit"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thành phố"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/profile_hobby"
+        android:layout_width="0.0dp"
+        android:layout_height="0.0dp"
+        android:hint="Sở thích"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:singleLine="true"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/profile_birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/_12sdp"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/profile_birth_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="Birth Day"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="Lưu thông tin"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/_12sdp"/>
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Logout"/>
+
+
+</LinearLayout>

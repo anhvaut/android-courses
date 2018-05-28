@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemLich"
+        android:title="Lịch Biểu"
+
+        android:icon="@mipmap/lichbieu2">
+
+    </item>
+    <item
+        android:id="@+id/itemBaoThuc"
+        android:title="Báo Thức"
+        android:icon="@mipmap/dongho1">
+
+    </item>
+
+    <item
+        android:id="@+id/itemCaiDat"
+        android:title="Cài Đặt"
+        android:icon="@mipmap/caidat">
+
+    </item>
+
+    <item
+        android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/itemDangNhap"
+                android:title="Đăng Nhập"
+                android:icon="@mipmap/loginsso">
+
+            </item>
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

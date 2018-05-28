@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/padding_extra_long"
+    android:paddingRight="@dimen/padding_extra_long"
+    android:background="@color/color_background"
+    >
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.creators.danhgiahocphan.ui.RoundedImageView
+        android:id="@+id/imgUpLoadImage"
+        android:layout_width="@dimen/height_extra_large"
+        android:layout_height="@dimen/height_extra_large"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_short"
+        android:onClick="uploadImage"
+        android:src="@drawable/icon_avatar" />
+
+    <EditText
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:background="@drawable/edit_text_custom_1"
+        android:textColorHint="@color/color_hint"
+        android:id="@+id/edtUser"
+        android:hint="Tên tài khoản"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:inputType="textPersonName"
+        android:layout_marginTop="@dimen/margin_very_short"
+        />
+
+    <EditText
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:textColorHint="@color/color_hint"
+        android:id="@+id/edtMail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:background="@drawable/edit_text_custom_1"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:textColorHint="@color/color_hint"
+        android:background="@drawable/edit_text_custom_1"
+        android:hint="Mật khẩu"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/edtReEnterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:background="@drawable/edit_text_custom_1"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:textColorHint="@color/color_hint" />
+
+
+
+   <Spinner
+       android:background="@drawable/edit_text_custom_1"
+       android:layout_marginTop="@dimen/margin_very_short"
+       android:layout_width="wrap_content"
+       android:layout_height="@dimen/height_short"
+       android:id="@+id/spinerMajorMajor"></Spinner>
+
+    <EditText
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:textColorHint="@color/color_hint"
+        android:background="@drawable/edit_text_custom_1"
+        android:hint="Niên khóa"
+        android:id="@+id/edtStartYear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:inputType="number"
+        />
+
+    <RadioGroup
+        android:text=""
+        android:id="@+id/rdgrGendle"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:gravity="center">
+        <RadioButton
+            android:onClick="radioCheck"
+            android:text="Nam"
+            android:id="@+id/rdMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:textColor="@color/color_white"
+            />
+        <Space
+            android:layout_width="@dimen/height_extra_large"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:onClick="radioCheck"
+            android:text="Nữ"
+            android:id="@+id/rdFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:textColor="@color/color_white"
+            />
+    </RadioGroup>
+    <Button
+        android:textStyle="bold"
+        android:onClick="SignUp"
+        android:layout_marginTop="@dimen/margin_very_short"
+        android:textSize="@dimen/text_size_extra_large"
+        android:text="Đăng ký"
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_short"
+        android:textColor="@color/color_white"
+        android:background="@drawable/button_custom_1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_very_short">
+
+        <Button
+            android:id="@+id/buttonLogInByFb"
+            android:layout_width="@dimen/height_short"
+            android:layout_height="@dimen/height_short"
+            android:background="@drawable/logo_fb" />
+
+        <Space
+            android:layout_width="@dimen/height_short_X"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="@dimen/height_short"
+            android:layout_height="@dimen/height_short"
+            android:background="@drawable/logo_gplus" />
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_marginBottom="@dimen/margin_very_short"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textColor="@color/color_white" />
+
+</RelativeLayout>

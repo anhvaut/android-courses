@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="@dimen/maginTop10"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:background="@drawable/pic3"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/magin0"
+        android:layout_height="@dimen/maginTop60"
+        android:layout_weight="1"
+        />
+    <RelativeLayout
+        android:layout_width="@dimen/magin0"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+        <TextView
+            android:id="@+id/tvEng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PIC"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/textSize20"
+            />
+        <TextView
+            android:id="@+id/tvVie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PIC2"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_below="@+id/tvEng"
+            android:layout_marginLeft="@dimen/textSize20"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/star_clicked"
+        />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="activity_horizontal_margin">24.0dp</dimen>
+<dimen name="activity_vertical_margin">24.0dp</dimen>
+
+<!--VariousTextSizes-->
+<dimen name="text_size_extra_small">15.0sp</dimen>
+<dimen name="text_size_small">18.0sp</dimen>
+<dimen name="text_size_medium">21.0sp</dimen>
+<dimen name="text_size_normal">24.0sp</dimen>
+<dimen name="text_size_large">27.0sp</dimen>
+<dimen name="text_size_extra_large">30.0sp</dimen>
+<dimen name="text_size_super_large">75.0sp</dimen>
+<dimen name="text_size_super_extra_large">105.0sp</dimen>
+
+<!--VariousPaddings-->
+<dimen name="padding_very_short">3.0dp</dimen>
+<dimen name="padding_short">7.5dp</dimen>
+<dimen name="padding_medium">10.5dp</dimen>
+<dimen name="padding_normal">15.0dp</dimen>
+<dimen name="padding_long">52.5dp</dimen>
+<dimen name="padding_long_gamename">82.5dp</dimen>
+<dimen name="padding_extra_long">22.5dp</dimen>
+
+<!--VariousMargins-->
+<dimen name="margin_very_short">7.5dp</dimen>
+<dimen name="margin_med_short">7.5dp</dimen>
+<dimen name="margin_short">15.0dp</dimen>
+<dimen name="margin_meium">22.5dp</dimen>
+<dimen name="margin_short_player_review">15.0dp</dimen>
+<dimen name="margin_meium_player_review">22.5dp</dimen>
+<dimen name="margin_normal">30.0dp</dimen>
+<dimen name="margin_long">37.5dp</dimen>
+<dimen name="margin_vshape">37.5dp</dimen>
+
+<!--VariousWidth-->
+<dimen name="width_extra_min">180.0dp</dimen>
+<dimen name="width_extra">210.0dp</dimen>
+<dimen name="width_profile_messages_images">105.0dp</dimen>
+<dimen name="width_half">360.0dp</dimen>
+<dimen name="width_normal_short">405.0dp</dimen>
+<dimen name="width_normal">450.0dp</dimen>
+<dimen name="width_extra_large">540.0dp</dimen>
+<dimen name="width_popup_window">270.0dp</dimen>
+
+
+<!--VariousHeight-->
+<dimen name="height_very_short_shadow">1.5dp</dimen>
+<dimen name="height_very_short">30.0dp</dimen>
+<dimen name="height_short">60.0dp</dimen>
+<dimen name="height_short_X">75.0dp</dimen>
+<dimen name="height_normal">90.0dp</dimen>
+<dimen name="height_large">120.0dp</dimen>
+<dimen name="height_extra_large">150.0dp</dimen>
+<dimen name="height_extra_large_x">300.0dp</dimen>
+<dimen name="width_ListHalf">390.0dp</dimen>
+
+
+</resources>

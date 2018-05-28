@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:textSize="20dp"
+            android:text="Thông tin ở về trọ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="Giá tiền:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:id="@+id/texttien"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="Địa chỉ:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:id="@+id/textdiachi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"
+            android:textSize="20dp"
+            android:text="Thông tin người ở ghép"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="Tên:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:id="@+id/textname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="Giới tính:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:id="@+id/textgt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="Tuổi:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:id="@+id/textage"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:textSize="20dp"
+                android:text="SĐT liên hệ:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/color5"
+                android:layout_weight="1"
+                android:id="@+id/texttelephone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="17dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginRight="20dp"
+                android:id="@+id/call"
+                android:background="@drawable/icon_call"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

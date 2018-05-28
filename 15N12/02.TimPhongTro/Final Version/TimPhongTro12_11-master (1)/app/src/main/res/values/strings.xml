@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Tìm Phòng Trọ</string>
+    <string name="app_name1">Thông tin phòng trọ</string>
+    <string name="app_name2">Thông tin ở ghép</string>
+    <string name="app_id">1793687627596215</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tim_tro">Tìm trọ thật dễ!</string>
+    <string name="dang_o_ghep">Đăng tin ở ghép</string>
+    <string name="dang_cho_thue">Đăng tin cho thuê phòng</string>
+    <string name="bao_cao">Báo cáo sự cố</string>
+    <string name="tab_bao_cao">Báo cáo sự cố</string>
+    <string name="loi">Báo cáo lỗi</string>
+    <string name="lam_dung">Báo cáo lạm dụng</string>
+    <string name="google_maps_key">AIzaSyCSIVn8XJnyqwvPE0ZpqtNJKXFbYYNi1Uk</string>
+
+    <string name="ten">Tên:</string>
+    <string name="tuoi">Tuổi:</string>
+    <string name="sdt">SDT liên hệ:</string>
+    <string name="diachi">Địa chỉ trọ:</string>
+    <string name="gia">Giá phòng:</string>
+    <string name="dientich">Diện tích:</string>
+    <string name="gioitinh">Giới tính:</string>
+    <string name="thongtinphong">Thông tin phòng trọ</string>
+    <string name="Logout">Log out</string>
+
+    <string name="thong_tin_chung">Thông tin chung</string>
+     <string name="chi_tiet">Chi tiết</string>
+
+    <string name="tel">tel:</string>
+    <string name="thong_tin">thongtin</string>
+    <string name="phong_cho_thue">phongchothue</string>
+    <string name="nguoi_o_ghep">nguoioghep</string>
+    <string name="du_lieu">dulieu</string>
+
+    <string name="selected">selected: </string>
+    <string name="nhap_dia_chi">Hãy nhập địa chỉ trọ.</string>
+    <string name="nhap_dien_tich">Hãy nhập diện tích.</string>
+    <string name="nhap_gia_tien">Hãy nhập giá tiền.</string>
+    <string name="nhap_sdt">Hãy nhập SĐT liên hệ.</string>
+    <string name="sdt_khong_hơp_le">SĐT liên hệ không hợp lệ.</string>
+    <string name="dang_tin_thanh_cong">Đăng tin thành công.</string>
+
+    <string name="nhap_ten">Hãy nhập Tên.</string>
+    <string name="nhap_tuoi">Hãy nhập Tuổi.</string>
+    <string name="tuoi_khong_hop_le">Tuổi không hợp lệ.</string>
+
+    <string name="canh_bao_khong_dang_nhap">Nếu không băng nhập tài khoản, Các bài đăng của bạn sẽ không được lưu lại trong thư mục.</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="url_avt">https://stocknews.com/wp-content/uploads/2017/06/facebook-fb-groups.png</string>
+    <string name="login_fail">Login attempt failed.</string>
+    <string name="login_cacel">Login attempt canceled.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="map_loading">Map Loading...</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="cho_phep">Đã được cho phép!</string>
+    <string name="tu_choi">Quyền bị từ chối!</string>
+    <string name="khong_bat_vi_tri">Không bật nhà cung cấp vị trí!</string>
+    <string name="my_location">My Location</string>
+    <string name="khong_tim_thay_vi_tri">Không tìm thấy vị trí!</string>
+
+</resources>

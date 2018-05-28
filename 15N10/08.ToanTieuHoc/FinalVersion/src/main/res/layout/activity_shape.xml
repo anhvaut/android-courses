@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mathapp.ShapeActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgbgshape"/>
+    <Button
+        android:id="@+id/btn_hinhtamgiac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình tam giác"/>
+    <Button
+        android:id="@+id/btn_hinhvuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình vuông"/>
+    <Button
+        android:id="@+id/btn_hinhtron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình Tròn"/>
+    <Button
+        android:id="@+id/btn_doanthang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đoạn Thẳng"/>
+    <Button
+        android:id="@+id/btn_demhinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đếm Hình"/>
+
+</LinearLayout>

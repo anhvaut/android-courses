@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tim_Tro</string>
+    <string name="facebook_app_id">1613042332093334</string>
+    <string name="fb_login_protocol_scheme">fb1613042332093334</string>
+    <string name="dang_tin">Đăng tin ngay</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="ten">Huỳnh Lê Văn</string>
+    <string name="mail">huynhlevan1997@gmail.com</string>
+    <string name="connect">Connect</string>
+    <string name="hoac_email">Hoặc bằng Email</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="tao_tk_moi">Đăng ký</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="loai_phong">Loại Phòng</string>
+    <string name="dia_chi">Địa Chỉ</string>
+    <string name="tinh_thanh">Tỉnh, Thành</string>
+    <string name="quan_huyen">Quận, Huyện</string>
+    <string name="thong_tin_co_ban">Thông tin cơ bản</string>
+    <string name="tieu_de">Tiêu Đề</string>
+</resources>

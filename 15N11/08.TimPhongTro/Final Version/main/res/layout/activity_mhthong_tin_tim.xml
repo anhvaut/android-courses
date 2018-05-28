@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mhthong_tin_tim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    tools:context="com.example.huynhle.tim_tro.Activity.MHThongTinTim">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#6cc1ca"
+        android:text="Cho Thuê Phòng"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:id="@+id/txtvTinhThanh"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Tỉnh, Thành"
+            android:gravity="center_vertical"
+            android:textSize="17sp"/>
+        <Spinner
+            android:id="@+id/spnCity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:id="@+id/txtvQuanHuyen"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Quận, Huyện"
+            android:gravity="center_vertical"
+            android:textSize="17sp"/>
+        <Spinner
+            android:id="@+id/spnDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:id="@+id/txtvKieuPhong"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Kiểu Phòng"
+            android:gravity="center_vertical"
+            android:textSize="17sp"/>
+        <Spinner
+            android:id="@+id/spnRoomType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:id="@+id/txtvDienTich"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Diện Tích"
+            android:gravity="center_vertical"
+            android:textSize="17sp"/>
+        <Spinner
+            android:id="@+id/spnDienTich"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10.0dip">
+        <TextView
+            android:id="@+id/txtvGiaPhong"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Giá Phòng"
+            android:gravity="center_vertical"
+            android:textSize="17sp"/>
+        <Spinner
+            android:id="@+id/spnGiaPhong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnTimKiem"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Tìm Kiếm" />
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_item_subject"
+    tools:context="com.example.creators.danhgiahocphan.activity.Login"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvtitle"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:text="CẬP NHẬP THÔNG TIN"
+        android:background="@color/color_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_large" />
+
+        <LinearLayout
+            android:layout_below="@id/tvtitle"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_short"
+            android:layout_marginRight="@dimen/margin_short"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgUpLoadImage"
+                android:layout_width="@dimen/height_extra_large"
+                android:layout_height="@dimen/height_extra_large"
+                android:layout_gravity="center"
+                android:onClick="uploadImage"
+                app:srcCompat="@drawable/icon_avatar" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_very_short"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/color_text"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Họ và tên :"
+                    android:textSize="@dimen/text_size_medium" />
+                <EditText
+                    android:id="@+id/edtUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Mật khẩu cũ :" />
+
+                <EditText
+                    android:id="@+id/txtPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/color_text"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Mật khẩu mới" />
+
+
+                <EditText
+                    android:textSize="@dimen/text_size_large"
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:text="Nhập lại mật khẩu :"
+                    android:layout_gravity="center" />
+
+                <EditText
+                    android:id="@+id/edtReEnterpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:text="Chuyên ngành:"
+                    android:layout_gravity="center" />
+                <Spinner
+                    android:id="@+id/spinerMajor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_width="@dimen/width_extra_min"
+                    android:layout_height="match_parent"
+                    android:text="Niên Khóa " />
+
+                <EditText
+                    android:id="@+id/edtStartYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:gravity="center"
+                android:id="@+id/rdgrGendle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_short"
+                android:orientation="horizontal"
+                android:text="">
+
+                <RadioButton
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:id="@+id/rdMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="radioClick"
+                    android:text="Nam" />
+                <Space
+                    android:layout_width="@dimen/height_extra_large"
+                    android:layout_height="match_parent" />
+                <RadioButton
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_size_medium"
+                    android:id="@+id/rdFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="radioClick"
+                    android:text="Nữ" />
+            </RadioGroup>
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnSave"
+                android:layout_width="@dimen/width_half"
+                android:layout_height="@dimen/height_short"
+                android:background="@drawable/button_custom_1"
+                android:text="THAY ĐỔI"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textColor="@color/color_background" />
+</RelativeLayout>

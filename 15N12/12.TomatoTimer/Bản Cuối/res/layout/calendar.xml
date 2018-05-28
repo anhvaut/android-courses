@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    >
+    <EditText
+        android:id="@+id/edtCongViec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập công việc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtNgay"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:text="Nhập ngày"
+            android:textSize="25dp"
+            android:textColor="#FF0000"/>
+
+        <ImageButton
+            android:id="@+id/imgNgay"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            app:srcCompat="@mipmap/date" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtGio"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="Nhập giờ    "
+            android:textSize="25dp"
+            android:textColor="#FF0000"/>
+
+        <ImageButton
+            android:id="@+id/imgGio"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            app:srcCompat="@mipmap/time" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/background_light"
+        android:text="+"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

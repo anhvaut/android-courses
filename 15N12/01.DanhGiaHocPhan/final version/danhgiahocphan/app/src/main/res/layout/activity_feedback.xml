@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_item_subject"
+    tools:context="com.example.creators.danhgiahocphan.activity.Login"
+    android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/text_size_extra_large"
+        android:textStyle="bold"
+        android:textColor="@color/color_white"
+        android:text="GÓP Ý - PHẢN HỒI"
+        android:background="@color/color_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_large" />
+
+    <LinearLayout
+        android:layout_margin="@dimen/margin_meium"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_large"
+            android:text="Góp ý/ phản hồi:"
+            android:layout_marginTop="@dimen/margin_long"
+            android:padding="@dimen/padding_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="@dimen/text_size_extra_large"
+            android:id="@+id/edtFeedback"
+            android:background="@drawable/edit_text_custom_1"
+            android:layout_marginTop="@dimen/margin_meium"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/width_half" />
+        <Button
+            android:textSize="@dimen/text_size_extra_large"
+            android:id="@+id/btnFeedback"
+            android:textColor="@color/color_white"
+            android:background="@drawable/button_custom_1"
+            android:layout_marginTop="@dimen/margin_long"
+            android:layout_gravity="center"
+            android:text="gửi phản hồi"
+            android:layout_width="@dimen/width_popup_window"
+            android:layout_height="@dimen/height_short_X" />
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textColor="@color/color_background" />
+</RelativeLayout>

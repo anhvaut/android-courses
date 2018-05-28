@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MathApp</string>
+    <string name="wellcome">CHÀO MỪNG ĐÉN VỚI CHƯƠNG TRÌNH HỌC TOÁN LỚP 1</string>
+    <string name="choice">MỜI EM CHỌN MỤC ĐỂ BẮT ĐẦU</string>
+    <string name="choice1">HỌC THEO SÁCH GIÁO KHOA</string>
+    <string name="choice2">HỌC TIẾP</string>
+    <string name="choice3">SỐ HỌC</string>
+    <string name="choice4">HÌNH HỌC</string>
+    <string name="choice5">ĐỌC GIỜ</string>
+    <string name="choice6">LUYỆN TẬP VÀ KIỂM TRA</string>
+    <string name="list">MỤC LỤC</string>
+    <string name="chapter1">1.CÁC SỐ ĐẾN 10. HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC</string>
+    <string name="chapter2">2.PHÉP CỘNG PHÉP TRỪ TRONG PHẠM VI 10</string>
+    <string name="chapter3">3.CÁC SỐ TRONG PHẠM VI 100. ĐO ĐỘ DÀI. GIẢI BÀI TOÁN</string>
+    <string name="chapter4">4.PHÉP CỘNG PHÉP TRỪ TRONG PHẠM VI 100. ĐO THỜI GIAN</string>
+    <string name="triangle">HÌNH TAM GIÁC</string>
+    <string name="square">HÌNH VUÔNG</string>
+    <string name="circle">HÌNH TRÒN</string>
+    <string name="segment">ĐOẠN THẲNG</string>
+    <string name="ms_segment">ĐO ĐỘ DÀI ĐOẠN THẲNG</string>
+    <string name="point_segment">ĐIỂM VÀ ĐOẠN THẲNG</string>
+    <string name="count_triangle">ĐẾM HÌNH TAM GIÁC</string>
+    <string name="count_square">ĐẾM HÌNH VUÔNG</string>
+    <string name="inout_circle">ĐIỂM TRONG VÀ NGOÀI HÌNH TRÒN</string>
+</resources>

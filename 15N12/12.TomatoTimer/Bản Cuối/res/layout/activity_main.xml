@@ -1,0 +1,107 @@
+<android.support.v4.widget.DrawerLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/dwLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#80FF80">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbTubar"
+            android:layout_height="?actionBarSize"
+            android:layout_width="match_parent"
+            android:background="#FF0000">
+        </android.support.v7.widget.Toolbar>
+        <ttn.cuongnguyen.tomato.DonutProgress
+            android:id="@+id/prTomato2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+
+            android:layout_centerInParent="true"
+            tools:ignore="DuplicateIds"
+            app:donut_circle_starting_degree="269"
+            app:donut_finished_color="#80FF80"
+            app:donut_finished_stroke_width="15dp"
+            app:donut_progress="0"
+            app:donut_suffix_text=""
+            app:donut_text=""
+            app:donut_text_size="50dp"
+            app:donut_unfinished_color="#FF8080"
+            app:donut_unfinished_stroke_width="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txtHienThitmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="60dp"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/btn_Starttmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:layout_toLeftOf="@+id/txtHienThitmt"
+            android:layout_toStartOf="@+id/txtHienThitmt"
+            android:text="START" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btn_Pausetmt"
+            android:layout_alignBaseline="@+id/btn_Starttmt"
+            android:layout_alignBottom="@+id/btn_Starttmt"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btn_Stoptmt"
+            android:layout_alignBaseline="@+id/btn_Pausetmt"
+            android:layout_alignBottom="@+id/btn_Pausetmt"
+            android:layout_toRightOf="@+id/txtHienThitmt"
+            android:layout_toEndOf="@+id/txtHienThitmt" />
+
+
+        <TextView
+            android:id="@+id/txt_pomodoro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tbTubar"
+            android:layout_centerHorizontal="true"
+            android:text="Pomodoro Timer"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/item_drawer"
+        app:headerLayout="@layout/hearder_dreawer_layout"
+        android:layout_gravity="start"
+        app:theme="@style/Theme.AppCompat.Light"
+        app:itemTextColor="@color/colorPrimaryDark"
+        >
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

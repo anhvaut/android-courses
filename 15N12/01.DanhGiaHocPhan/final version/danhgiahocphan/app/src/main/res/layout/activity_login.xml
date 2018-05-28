@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/color_background"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/padding_extra_long"
+        android:paddingRight="@dimen/padding_extra_long">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_extra_large_x"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_below="@+id/logo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_normal"
+            android:background="@drawable/edit_text_custom_1"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <EditText
+                android:textSize="@dimen/text_size_large"
+                android:id="@+id/editUserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:hint="Tên tài khoản"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/padding_extra_long"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@color/color_hint" />
+
+            <ImageView
+                android:paddingRight="@dimen/padding_medium"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_user" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_meium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_normal"
+            android:background="@drawable/edit_text_custom_1"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <EditText
+                android:textSize="@dimen/text_size_large"
+                android:paddingLeft="@dimen/padding_extra_long"
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:textColorHint="@color/color_hint" />
+
+            <ImageView
+                android:paddingRight="@dimen/padding_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:src="@drawable/icon_password" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_normal"
+            android:layout_marginTop="@dimen/margin_meium"
+            android:background="@drawable/button_custom_1"
+            android:onClick="LogIn"
+            android:text="Đăng nhập"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_long" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLogInByFb"
+                android:layout_width="@dimen/height_normal"
+                android:layout_height="@dimen/height_normal"
+                android:background="@drawable/logo_fb" />
+
+            <Space
+                android:layout_width="@dimen/height_short"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="@dimen/height_normal"
+                android:layout_height="@dimen/height_normal"
+                android:background="@drawable/logo_gplus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_long"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textViewForgotPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="forgotPass"
+                android:text="@string/forgot_password"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="signUp"
+                android:text="@string/sign_up"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginBottom="@dimen/margin_short"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textColor="@color/color_white" />
+    </RelativeLayout>

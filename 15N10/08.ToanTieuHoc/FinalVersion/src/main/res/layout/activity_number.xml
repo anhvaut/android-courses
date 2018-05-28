@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mathapp.NumberActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/bgsohoc">
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:id="@+id/btn_phepcong"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="PHÉP CỘNG +"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:id="@+id/btn_pheptru"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="PHÉP TRỪ  -"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"/>
+    <Button
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:id="@+id/btn_sosanh"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Phép so sánh"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+
+
+
+
+</RelativeLayout>

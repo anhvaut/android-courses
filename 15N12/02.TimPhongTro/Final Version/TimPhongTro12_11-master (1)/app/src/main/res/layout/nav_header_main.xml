@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@drawable/bar"
+        android:layout_weight="0.34" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/duongtron"
+            android:id="@+id/imgavt"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/imgavt"
+            android:id="@+id/id_name_taikhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="đăng nhập"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/color3"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imglogout"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

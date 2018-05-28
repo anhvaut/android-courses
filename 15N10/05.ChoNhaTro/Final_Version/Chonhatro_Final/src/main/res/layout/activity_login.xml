@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#dee9e9"
+    >
+    <TextView
+        android:id="@+id/tvdangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      WELLCOME!         "
+
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#ff039e"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+
+        android:background="@drawable/custorm_edittext"
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custorm_edittext"
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+
+            android:background="@drawable/custorm_button"
+            android:id="@+id/btnsub1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="sign in"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+
+            android:background="@drawable/custorm_button"
+            android:id="@+id/btnadd1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="sign up"
+            android:layout_margin="5dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/color_white"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/color_background">
+         <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+             >
+        <ImageView
+            android:layout_margin="@dimen/margin_meium"
+            android:id="@+id/imgTeacher"
+            android:layout_width="@dimen/height_extra_large"
+            android:layout_height="@dimen/height_extra_large"
+            android:src="@drawable/icon_avatar" />
+             <LinearLayout
+                 android:gravity="center_horizontal"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="@dimen/margin_short">
+                 <ImageView
+                 android:src="@drawable/icon_star"
+                 android:layout_width="@dimen/margin_long"
+                 android:layout_height="@dimen/margin_long" />
+                 <ImageView
+                     android:src="@drawable/icon_star"
+                     android:layout_width="@dimen/margin_long"
+                     android:layout_height="@dimen/margin_long" />
+                 <ImageView
+                     android:src="@drawable/icon_star"
+                     android:layout_width="@dimen/margin_long"
+                     android:layout_height="@dimen/margin_long" />
+                 <ImageView
+                     android:src="@drawable/icon_star"
+                     android:layout_width="@dimen/margin_long"
+                     android:layout_height="@dimen/margin_long" />
+                 <ImageView
+                     android:src="@drawable/icon_star"
+                     android:layout_width="@dimen/margin_long"
+                     android:layout_height="@dimen/margin_long" />
+             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="@dimen/text_size_medium"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:id="@+id/txtTeacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ tên:A"
+                android:layout_below="@+id/imgTeacher" />
+
+            <TextView
+                android:textSize="@dimen/text_size_medium"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:id="@+id/txtSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Môn dạy:B"
+                android:layout_below="@+id/txtTeacher" />
+
+            <TextView
+                android:textSize="@dimen/text_size_medium"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:id="@+id/txtLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Học vấn:C"/>
+            <TextView
+                android:id="@+id/txtMail"
+                android:textSize="@dimen/text_size_medium"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:C"/>
+            <TextView
+                android:id="@+id/txtPhone"
+                android:textSize="@dimen/text_size_medium"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sdt:C"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/color_background_item_subject"
+            android:paddingTop="@dimen/padding_short"
+            android:paddingLeft="@dimen/padding_medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnLike"
+            android:background="@drawable/icon_unlike"
+            android:onClick="like"
+            android:layout_width="@dimen/padding_long"
+            android:layout_height="@dimen/padding_long" />
+
+            <TextView
+                android:onClick="like"
+                android:id="@+id/txtLike"
+                android:textColor="@color/color_text"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_medium"
+                android:text="5 Like"
+                android:layout_marginRight="@dimen/margin_short"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <Button
+                android:background="@drawable/icon_cmt"
+                android:layout_width="@dimen/padding_long"
+                android:layout_height="@dimen/padding_long" />
+            <TextView
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/color_text"
+                android:id="@+id/txtComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_short"
+                android:text="18 bình luận" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/color_background_item_subject"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding= "@dimen/padding_normal"
+            android:weightSum="5">
+
+            <EditText
+                android:textSize="@dimen/text_size_extra_large"
+                android:id="@+id/edtComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/btnComment"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_short"
+                android:background="@color/color_button_login"
+                android:onClick="CmtRating̣̣̣̣̣"
+                android:text="bình luận"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_marginTop="@dimen/margin_short"
+            android:id="@+id/lvComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>

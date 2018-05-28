@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgtrangchu"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/iconnen" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnThuePhong"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:text="THUÊ PHÒNG"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btnChoThue"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn"
+            android:text="CHO THUÊ"
+            android:textSize="25sp"
+            android:layout_below="@+id/btnThuePhong"
+            android:layout_alignStart="@+id/btnThuePhong"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/btnChoThue"
+            android:layout_below="@+id/btnChoThue"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/btn"
+            android:text="đăng nhập"
+            android:textSize="25sp" />
+    </RelativeLayout>
+</LinearLayout>
